@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 import {ProductRepository} from "../model/product.repository";
 import {Product} from "../model/product.model";
-import {CartModel} from "../model/cart";
+import {Cart} from "../model/cart.model";
 import {Router} from "@angular/router";
 
 @Component({
@@ -16,7 +16,7 @@ export class StoreComponent {
   public selectedPage = 1;
 
   constructor(private repository: ProductRepository,
-              private cart: CartModel,
+              private cart: Cart,
               private router: Router) { }
 
   get products(): Product[] {

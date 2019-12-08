@@ -52,8 +52,5 @@
 </div>
 <div class="text-xs-center">
   <button class="btn btn-primary" routerLink="/store">Continue Shopping</button>
-  <button class="btn btn-secondary" routerLink="/checkout"
-          [disabled]="cart.lines.length == 0">
-    Checkout
-  </button>
+  <button class="btn btn-secondary" routerLink="/checkout" [disabled]="cart.lines.length == 0">Checkout</button>
 </div>
