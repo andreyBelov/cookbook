@@ -10,8 +10,19 @@ import { CheckoutComponent } from './checkout.component';
 import {RouterModule} from "@angular/router";
 
 @NgModule({
-  imports: [ModelModule, BrowserModule, FormsModule, RouterModule],
-  declarations: [StoreComponent, CounterDirective, CartSummaryComponent, CartDetailComponent, CheckoutComponent],
+  imports: [
+    ModelModule,
+    BrowserModule,
+    FormsModule,
+    RouterModule
+  ],
+  declarations: [
+    StoreComponent,
+    CounterDirective,
+    CartSummaryComponent,
+    CartDetailComponent,
+    CheckoutComponent
+  ],
   exports: [StoreComponent]
 })
 export class StoreModule { }
