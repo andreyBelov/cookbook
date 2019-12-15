@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>cookbook</artifactId>
+        <artifactId>sportsstore</artifactId>
         <groupId>com.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>sportsstore</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>frontend</module>
-        <module>backend</module>
-        <module>frontend-chap11</module>
-    </modules>
+    <artifactId>frontend-chap11</artifactId>
 
 
 </project>
