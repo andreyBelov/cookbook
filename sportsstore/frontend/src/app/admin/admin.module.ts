@@ -5,6 +5,9 @@ import {RouterModule} from "@angular/router";
 import {AuthComponent} from "./auth.component";
 import {AdminComponent} from "./admin.component";
 import {AuthGuard} from "./auth.guard";
+import { ProductTableComponent } from './product-table.component';
+import { ProductEditorComponent } from './product-editor.component';
+import { OrderTableComponent } from './order-table.component';
 
 let routing = RouterModule.forChild([
   {path: "auth", component: AuthComponent},
@@ -23,7 +26,10 @@ let routing = RouterModule.forChild([
   ],
   declarations: [
     AuthComponent,
-    AdminComponent
+    AdminComponent,
+    ProductTableComponent,
+    ProductEditorComponent,
+    OrderTableComponent
   ]
 })
 export class AdminModule {
