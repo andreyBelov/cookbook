@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 3000 --open",
-    "build": "ng build",
+    "build": "ng build --target=production --aot=false --verbose",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
